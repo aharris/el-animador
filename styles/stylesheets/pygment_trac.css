@@ -1,0 +1,321 @@
+/* line 1, ../sass/pygment_trac.sass */
+.highlight {
+  background: #f0f3f3;
+}
+/* line 2, ../sass/pygment_trac.sass */
+.highlight .hll {
+  background-color: #ffffcc;
+}
+/* line 5, ../sass/pygment_trac.sass */
+.highlight .c {
+  color: #0099ff;
+  font-style: italic;
+}
+/* line 8, ../sass/pygment_trac.sass */
+.highlight .err {
+  color: #aa0000;
+  background-color: #ffaaaa;
+}
+/* line 11, ../sass/pygment_trac.sass */
+.highlight .k {
+  color: #006699;
+  font-weight: bold;
+}
+/* line 14, ../sass/pygment_trac.sass */
+.highlight .o {
+  color: #555555;
+}
+/* line 16, ../sass/pygment_trac.sass */
+.highlight .cm {
+  color: #0099ff;
+  font-style: italic;
+}
+/* line 19, ../sass/pygment_trac.sass */
+.highlight .cp {
+  color: #009999;
+}
+/* line 21, ../sass/pygment_trac.sass */
+.highlight .c1 {
+  color: #0099ff;
+  font-style: italic;
+}
+/* line 24, ../sass/pygment_trac.sass */
+.highlight .cs {
+  color: #0099ff;
+  font-weight: bold;
+  font-style: italic;
+}
+/* line 28, ../sass/pygment_trac.sass */
+.highlight .gd {
+  background-color: #ffcccc;
+  border: 1px solid #cc0000;
+}
+/* line 31, ../sass/pygment_trac.sass */
+.highlight .ge {
+  font-style: italic;
+}
+/* line 33, ../sass/pygment_trac.sass */
+.highlight .gr {
+  color: red;
+}
+/* line 35, ../sass/pygment_trac.sass */
+.highlight .gh {
+  color: #003300;
+  font-weight: bold;
+}
+/* line 38, ../sass/pygment_trac.sass */
+.highlight .gi {
+  background-color: #ccffcc;
+  border: 1px solid #00cc00;
+}
+/* line 41, ../sass/pygment_trac.sass */
+.highlight .go {
+  color: #aaaaaa;
+}
+/* line 43, ../sass/pygment_trac.sass */
+.highlight .gp {
+  color: #000099;
+  font-weight: bold;
+}
+/* line 46, ../sass/pygment_trac.sass */
+.highlight .gs {
+  font-weight: bold;
+}
+/* line 48, ../sass/pygment_trac.sass */
+.highlight .gu {
+  color: #003300;
+  font-weight: bold;
+}
+/* line 51, ../sass/pygment_trac.sass */
+.highlight .gt {
+  color: #99cc66;
+}
+/* line 53, ../sass/pygment_trac.sass */
+.highlight .kc, .highlight .kd, .highlight .kn {
+  color: #006699;
+  font-weight: bold;
+}
+/* line 56, ../sass/pygment_trac.sass */
+.highlight .kp {
+  color: #006699;
+}
+/* line 58, ../sass/pygment_trac.sass */
+.highlight .kr {
+  color: #006699;
+  font-weight: bold;
+}
+/* line 61, ../sass/pygment_trac.sass */
+.highlight .kt {
+  color: #007788;
+  font-weight: bold;
+}
+/* line 64, ../sass/pygment_trac.sass */
+.highlight .m {
+  color: #ff6600;
+}
+/* line 66, ../sass/pygment_trac.sass */
+.highlight .s {
+  color: #cc3300;
+}
+/* line 68, ../sass/pygment_trac.sass */
+.highlight .na {
+  color: #330099;
+}
+/* line 70, ../sass/pygment_trac.sass */
+.highlight .nb {
+  color: #336666;
+}
+/* line 72, ../sass/pygment_trac.sass */
+.highlight .nc {
+  color: #00aa88;
+  font-weight: bold;
+}
+/* line 75, ../sass/pygment_trac.sass */
+.highlight .no {
+  color: #336600;
+}
+/* line 77, ../sass/pygment_trac.sass */
+.highlight .nd {
+  color: #9999ff;
+}
+/* line 79, ../sass/pygment_trac.sass */
+.highlight .ni {
+  color: #999999;
+  font-weight: bold;
+}
+/* line 82, ../sass/pygment_trac.sass */
+.highlight .ne {
+  color: #cc0000;
+  font-weight: bold;
+}
+/* line 85, ../sass/pygment_trac.sass */
+.highlight .nf {
+  color: #cc00ff;
+}
+/* line 87, ../sass/pygment_trac.sass */
+.highlight .nl {
+  color: #9999ff;
+}
+/* line 89, ../sass/pygment_trac.sass */
+.highlight .nn {
+  color: #00ccff;
+  font-weight: bold;
+}
+/* line 92, ../sass/pygment_trac.sass */
+.highlight .nt {
+  color: #330099;
+  font-weight: bold;
+}
+/* line 95, ../sass/pygment_trac.sass */
+.highlight .nv {
+  color: #003333;
+}
+/* line 97, ../sass/pygment_trac.sass */
+.highlight .ow {
+  color: black;
+  font-weight: bold;
+}
+/* line 100, ../sass/pygment_trac.sass */
+.highlight .w {
+  color: #bbbbbb;
+}
+/* line 102, ../sass/pygment_trac.sass */
+.highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo {
+  color: #ff6600;
+}
+/* line 104, ../sass/pygment_trac.sass */
+.highlight .sb, .highlight .sc {
+  color: #cc3300;
+}
+/* line 106, ../sass/pygment_trac.sass */
+.highlight .sd {
+  color: #cc3300;
+  font-style: italic;
+}
+/* line 109, ../sass/pygment_trac.sass */
+.highlight .s2 {
+  color: #cc3300;
+}
+/* line 111, ../sass/pygment_trac.sass */
+.highlight .se {
+  color: #cc3300;
+  font-weight: bold;
+}
+/* line 114, ../sass/pygment_trac.sass */
+.highlight .sh {
+  color: #cc3300;
+}
+/* line 116, ../sass/pygment_trac.sass */
+.highlight .si {
+  color: #aa0000;
+}
+/* line 118, ../sass/pygment_trac.sass */
+.highlight .sx {
+  color: #cc3300;
+}
+/* line 120, ../sass/pygment_trac.sass */
+.highlight .sr {
+  color: #33aaaa;
+}
+/* line 122, ../sass/pygment_trac.sass */
+.highlight .s1 {
+  color: #cc3300;
+}
+/* line 124, ../sass/pygment_trac.sass */
+.highlight .ss {
+  color: #ffcc33;
+}
+/* line 126, ../sass/pygment_trac.sass */
+.highlight .bp {
+  color: #336666;
+}
+/* line 128, ../sass/pygment_trac.sass */
+.highlight .vc, .highlight .vg, .highlight .vi {
+  color: #003333;
+}
+/* line 130, ../sass/pygment_trac.sass */
+.highlight .il {
+  color: #ff6600;
+}
+
+/* Comment */
+/* Error */
+/* Keyword */
+/* Operator */
+/* Comment.Multiline */
+/* Comment.Preproc */
+/* Comment.Single */
+/* Comment.Special */
+/* Generic.Deleted */
+/* Generic.Emph */
+/* Generic.Error */
+/* Generic.Heading */
+/* Generic.Inserted */
+/* Generic.Output */
+/* Generic.Prompt */
+/* Generic.Strong */
+/* Generic.Subheading */
+/* Generic.Traceback */
+/* Keyword.Constant */
+/* Keyword.Declaration */
+/* Keyword.Namespace */
+/* Keyword.Pseudo */
+/* Keyword.Reserved */
+/* Keyword.Type */
+/* Literal.Number */
+/* Literal.String */
+/* Name.Attribute */
+/* Name.Builtin */
+/* Name.Class */
+/* Name.Constant */
+/* Name.Decorator */
+/* Name.Entity */
+/* Name.Exception */
+/* Name.Function */
+/* Name.Label */
+/* Name.Namespace */
+/* Name.Tag */
+/* Name.Variable */
+/* Operator.Word */
+/* Text.Whitespace */
+/* Literal.Number.Float */
+/* Literal.Number.Hex */
+/* Literal.Number.Integer */
+/* Literal.Number.Oct */
+/* Literal.String.Backtick */
+/* Literal.String.Char */
+/* Literal.String.Doc */
+/* Literal.String.Double */
+/* Literal.String.Escape */
+/* Literal.String.Heredoc */
+/* Literal.String.Interpol */
+/* Literal.String.Other */
+/* Literal.String.Regex */
+/* Literal.String.Single */
+/* Literal.String.Symbol */
+/* Name.Builtin.Pseudo */
+/* Name.Variable.Class */
+/* Name.Variable.Global */
+/* Name.Variable.Instance */
+/* Literal.Number.Integer.Long */
+/* line 195, ../sass/pygment_trac.sass */
+.type-csharp .highlight .k, .type-csharp .highlight .kt {
+  color: blue;
+}
+/* line 197, ../sass/pygment_trac.sass */
+.type-csharp .highlight .nf {
+  color: black;
+  font-weight: normal;
+}
+/* line 200, ../sass/pygment_trac.sass */
+.type-csharp .highlight .nc {
+  color: #2b91af;
+}
+/* line 202, ../sass/pygment_trac.sass */
+.type-csharp .highlight .nn {
+  color: black;
+}
+/* line 204, ../sass/pygment_trac.sass */
+.type-csharp .highlight .s, .type-csharp .highlight .sc {
+  color: #a31515;
+}
