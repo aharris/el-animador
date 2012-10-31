@@ -1,0 +1,45 @@
+/* line 3, ../sass/animations.sass */
+.cubes {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-perspective-origin: 50% 50%;
+  -webkit-perspective: 1000px;
+}
+
+/* line 8, ../sass/animations.sass */
+.transition {
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+/* line 13, ../sass/animations.sass */
+.scale {
+  -webkit-transform: scale3d(1, 1, 0.5);
+  -moz-transform: scale3d(1, 1, 0.5);
+  -ms-transform: scale3d(1, 1, 0.5);
+  -o-transform: scale3d(1, 1, 0.5);
+  transform: scale3d(1, 1, 0.5);
+}
+
+/* line 16, ../sass/animations.sass */
+.zoom-out {
+  -webkit-transform: translate3d(0, 0, -500px);
+  -moz-transform: translate3d(0, 0, -500px);
+  -ms-transform: translate3d(0, 0, -500px);
+  -o-transform: translate3d(0, 0, -500px);
+  transform: translate3d(0, 0, -500px);
+}

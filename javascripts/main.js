@@ -1,1 +1,11 @@
-console.log('This would be the main JS file.');
+$(document).ready(function(){
+
+  $("#scale").click(function(){
+    $(".cube").addClass('scale transition');
+  })
+
+  $("#zoomOut").click(function(){
+    $(".cube").addClass('zoom-out transition');
+  })
+
+});

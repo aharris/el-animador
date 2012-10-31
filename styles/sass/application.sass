@@ -1,6 +1,8 @@
 @import compass/reset
 @import compass/css3
 
+@import sassy-buttons
+
 @import cube
 
 
@@ -170,6 +172,15 @@ form
 img
   width: 100%
   max-width: 100%
+
+//*******************************************************************************
+//*Buttons
+//*******************************************************************************
+
+#main_content .button
+  +sassy-button
+  &:hover
+    color: #fff
 
 //*******************************************************************************
 //*Full-Width Styles

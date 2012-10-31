@@ -1,0 +1,17 @@
+@import compass/css3
+
+.cubes
+  +transform-style(preserve-3d)
+  -webkit-perspective-origin: 50% 50%
+  -webkit-perspective: 1000px
+
+.transition
+  +transition-property(all)
+  +transition-duration(1s)
+  +transform-style(preserve-3d)
+
+.scale
+  +scale3d(1, 1, .5)
+
+.zoom-out
+  +translate3d(0,0, -500px)

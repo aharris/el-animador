@@ -126,7 +126,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   -webkit-transform: rotateX(-90deg) rotate(180deg) translateZ(74px);
 }
 
-/* line 18, ../sass/application.sass */
+/* line 20, ../sass/application.sass */
 body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -139,7 +139,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 27, ../sass/application.sass */
+/* line 29, ../sass/application.sass */
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
@@ -148,50 +148,50 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -1px;
 }
 
-/* line 34, ../sass/application.sass */
+/* line 36, ../sass/application.sass */
 h1 {
   font-size: 36px;
   font-weight: 700;
 }
 
-/* line 38, ../sass/application.sass */
+/* line 40, ../sass/application.sass */
 h2 {
   padding-bottom: 10px;
   font-size: 32px;
   background: url("../../images/bg_hr.png") repeat-x bottom;
 }
 
-/* line 43, ../sass/application.sass */
+/* line 45, ../sass/application.sass */
 h3 {
   font-size: 24px;
 }
 
-/* line 46, ../sass/application.sass */
+/* line 48, ../sass/application.sass */
 h4 {
   font-size: 21px;
 }
 
-/* line 49, ../sass/application.sass */
+/* line 51, ../sass/application.sass */
 h5 {
   font-size: 18px;
 }
 
-/* line 52, ../sass/application.sass */
+/* line 54, ../sass/application.sass */
 h6 {
   font-size: 16px;
 }
 
-/* line 55, ../sass/application.sass */
+/* line 57, ../sass/application.sass */
 p {
   margin: 10px 0 15px 0;
 }
 
-/* line 58, ../sass/application.sass */
+/* line 60, ../sass/application.sass */
 footer p {
   color: #f2f2f2;
 }
 
-/* line 61, ../sass/application.sass */
+/* line 63, ../sass/application.sass */
 a {
   text-decoration: none;
   color: #007edf;
@@ -206,29 +206,29 @@ a {
   transition: text-shadow 0.5s ease;
 }
 
-/* line 68, ../sass/application.sass */
+/* line 70, ../sass/application.sass */
 #main_content a:hover {
   color: #0069ba;
   text-shadow: #0090ff 0px 0px 2px;
 }
 
-/* line 72, ../sass/application.sass */
+/* line 74, ../sass/application.sass */
 footer a:hover {
   color: #43adff;
   text-shadow: #0090ff 0px 0px 2px;
 }
 
-/* line 76, ../sass/application.sass */
+/* line 78, ../sass/application.sass */
 em {
   font-style: italic;
 }
 
-/* line 79, ../sass/application.sass */
+/* line 81, ../sass/application.sass */
 strong {
   font-weight: bold;
 }
 
-/* line 82, ../sass/application.sass */
+/* line 84, ../sass/application.sass */
 img {
   position: relative;
   margin: 0 auto;
@@ -243,7 +243,7 @@ img {
   -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
-/* line 95, ../sass/application.sass */
+/* line 97, ../sass/application.sass */
 pre, code {
   width: 100%;
   color: #222222;
@@ -255,7 +255,7 @@ pre, code {
   -webkit-border-radius: 2px;
 }
 
-/* line 105, ../sass/application.sass */
+/* line 107, ../sass/application.sass */
 pre {
   width: 100%;
   padding: 10px;
@@ -263,20 +263,20 @@ pre {
   overflow: auto;
 }
 
-/* line 111, ../sass/application.sass */
+/* line 113, ../sass/application.sass */
 code {
   padding: 3px;
   margin: 0 3px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* line 116, ../sass/application.sass */
+/* line 118, ../sass/application.sass */
 pre code {
   display: block;
   box-shadow: none;
 }
 
-/* line 120, ../sass/application.sass */
+/* line 122, ../sass/application.sass */
 blockquote {
   color: #666666;
   margin-bottom: 20px;
@@ -284,35 +284,35 @@ blockquote {
   border-left: 3px solid #bbbbbb;
 }
 
-/* line 126, ../sass/application.sass */
+/* line 128, ../sass/application.sass */
 ul, ol, dl {
   margin-bottom: 15px;
   padding-left: 20px;
 }
 
-/* line 130, ../sass/application.sass */
+/* line 132, ../sass/application.sass */
 ul li {
   list-style: inside;
   padding-left: 20px;
 }
 
-/* line 134, ../sass/application.sass */
+/* line 136, ../sass/application.sass */
 ol li {
   list-style: decimal inside;
   padding-left: 20px;
 }
 
-/* line 139, ../sass/application.sass */
+/* line 141, ../sass/application.sass */
 dl dt {
   font-weight: bold;
 }
-/* line 141, ../sass/application.sass */
+/* line 143, ../sass/application.sass */
 dl dd, dl p {
   padding-left: 20px;
   font-style: italic;
 }
 
-/* line 145, ../sass/application.sass */
+/* line 147, ../sass/application.sass */
 hr {
   height: 1px;
   margin-bottom: 5px;
@@ -320,14 +320,14 @@ hr {
   background: url("../../images/bg_hr.png") repeat-x center;
 }
 
-/* line 151, ../sass/application.sass */
+/* line 153, ../sass/application.sass */
 table {
   border: 1px solid #373737;
   margin-bottom: 20px;
   text-align: left;
 }
 
-/* line 156, ../sass/application.sass */
+/* line 158, ../sass/application.sass */
 th {
   font-family: "Lucida Grande", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 10px;
@@ -335,30 +335,93 @@ th {
   color: white;
 }
 
-/* line 162, ../sass/application.sass */
+/* line 164, ../sass/application.sass */
 td {
   padding: 10px;
   border: 1px solid #373737;
 }
 
-/* line 166, ../sass/application.sass */
+/* line 168, ../sass/application.sass */
 form {
   background: #f2f2f2;
   padding: 20px;
 }
 
-/* line 170, ../sass/application.sass */
+/* line 172, ../sass/application.sass */
 img {
   width: 100%;
   max-width: 100%;
 }
 
-/* line 178, ../sass/application.sass */
+/* line 180, ../sass/application.sass */
+#main_content .button {
+  font-size: 16px;
+  padding: 0.5em 1.5em;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF0B99C2', endColorstr='#FF064D61');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0b99c2), color-stop(100%, #087392));
+  background: -webkit-linear-gradient(#0b99c2, #087392);
+  background: -moz-linear-gradient(#0b99c2, #087392);
+  background: -o-linear-gradient(#0b99c2, #087392);
+  background: linear-gradient(#0b99c2, #087392);
+  -webkit-box-shadow: #27c5f3 0 1px 0 inset;
+  -moz-box-shadow: #27c5f3 0 1px 0 inset;
+  box-shadow: #27c5f3 0 1px 0 inset;
+  border: 1px solid #07607a;
+  color: white;
+  text-shadow: #043645 0 -1px 0;
+}
+/* line 15, ../../../../../../Library/Ruby/Gems/1.8/gems/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+#main_content .button:hover {
+  text-decoration: none;
+}
+/* line 36, ../../../../../../Library/Ruby/Gems/1.8/gems/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+#main_content .button:hover {
+  background-color: #07607a;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0a86aa), color-stop(100%, #07607a));
+  background: -webkit-linear-gradient(#0a86aa, #07607a);
+  background: -moz-linear-gradient(#0a86aa, #07607a);
+  background: -o-linear-gradient(#0a86aa, #07607a);
+  background: linear-gradient(#0a86aa, #07607a);
+}
+/* line 39, ../../../../../../Library/Ruby/Gems/1.8/gems/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+#main_content .button:active {
+  -webkit-box-shadow: #06546b 0 1px 2px inset;
+  -moz-box-shadow: #06546b 0 1px 2px inset;
+  box-shadow: #06546b 0 1px 2px inset;
+}
+/* line 6, ../../../../../../Library/Ruby/Gems/1.8/gems/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+#main_content .button.disabled, #main_content .button[disabled] {
+  opacity: 0.6;
+  background: #087392;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+/* line 73, ../../../../../../Library/Ruby/Gems/1.8/gems/sassy-buttons-0.1.4/stylesheets/_sassy-buttons.sass */
+#main_content .button::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
+/* line 182, ../sass/application.sass */
+#main_content .button:hover {
+  color: white;
+}
+
+/* line 189, ../sass/application.sass */
 .outer {
   width: 100%;
 }
 
-/* line 181, ../sass/application.sass */
+/* line 192, ../sass/application.sass */
 .inner {
   position: relative;
   max-width: 1200px;
@@ -366,7 +429,7 @@ img {
   margin: 0 auto;
 }
 
-/* line 187, ../sass/application.sass */
+/* line 198, ../sass/application.sass */
 #forkme_banner {
   display: block;
   position: absolute;
@@ -382,7 +445,7 @@ img {
   border-bottom-right-radius: 2px;
 }
 
-/* line 201, ../sass/application.sass */
+/* line 212, ../sass/application.sass */
 #header_wrap {
   background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #e2722c), color-stop(50%, #e0a33b), color-stop(100%, #e2722c));
   background-image: -webkit-linear-gradient(left, #e2722c 0%, #e0a33b 50%, #e2722c 100%);
@@ -390,12 +453,12 @@ img {
   background-image: -o-linear-gradient(left, #e2722c 0%, #e0a33b 50%, #e2722c 100%);
   background-image: linear-gradient(left, #e2722c 0%, #e0a33b 50%, #e2722c 100%);
 }
-/* line 203, ../sass/application.sass */
+/* line 214, ../sass/application.sass */
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
 }
 
-/* line 206, ../sass/application.sass */
+/* line 217, ../sass/application.sass */
 #project_title {
   margin: 0;
   color: white;
@@ -404,7 +467,7 @@ img {
   text-shadow: #111111 0px 0px 10px;
 }
 
-/* line 213, ../sass/application.sass */
+/* line 224, ../sass/application.sass */
 #project_tagline {
   color: white;
   font-size: 24px;
@@ -413,7 +476,7 @@ img {
   text-shadow: #111111 0px 0px 10px;
 }
 
-/* line 220, ../sass/application.sass */
+/* line 231, ../sass/application.sass */
 #downloads {
   position: absolute;
   width: 210px;
@@ -424,7 +487,7 @@ img {
   background: url("../../images/icon_download.png") no-repeat 0% 90%;
 }
 
-/* line 229, ../sass/application.sass */
+/* line 240, ../sass/application.sass */
 .zip_download_link {
   display: block;
   float: right;
@@ -435,7 +498,7 @@ img {
   background: url(../../images/sprite_download.png) no-repeat bottom left;
 }
 
-/* line 238, ../sass/application.sass */
+/* line 249, ../sass/application.sass */
 .tar_download_link {
   display: block;
   float: right;
@@ -447,86 +510,86 @@ img {
   margin-left: 10px;
 }
 
-/* line 248, ../sass/application.sass */
+/* line 259, ../sass/application.sass */
 .zip_download_link:hover {
   background: url(../../images/sprite_download.png) no-repeat top left;
 }
 
-/* line 251, ../sass/application.sass */
+/* line 262, ../sass/application.sass */
 .tar_download_link:hover {
   background: url(../../images/sprite_download.png) no-repeat top right;
 }
 
-/* line 254, ../sass/application.sass */
+/* line 265, ../sass/application.sass */
 #main_content_wrap {
   background: #f2f2f2;
   border-top: 1px solid #111111;
   border-bottom: 1px solid #111111;
 }
 
-/* line 259, ../sass/application.sass */
+/* line 270, ../sass/application.sass */
 #main_content {
   padding-top: 40px;
 }
 
-/* line 262, ../sass/application.sass */
+/* line 273, ../sass/application.sass */
 #footer_wrap {
   background: #212121;
 }
 
 @media screen and (max-width: 480px) {
-  /* line 270, ../sass/application.sass */
+  /* line 281, ../sass/application.sass */
   body {
     font-size: 14px;
   }
 
-  /* line 272, ../sass/application.sass */
+  /* line 283, ../sass/application.sass */
   #downloads {
     display: none;
   }
 
-  /* line 274, ../sass/application.sass */
+  /* line 285, ../sass/application.sass */
   .inner {
     min-width: 320px;
     max-width: 480px;
   }
 
-  /* line 277, ../sass/application.sass */
+  /* line 288, ../sass/application.sass */
   #project_title {
     font-size: 32px;
   }
 
-  /* line 279, ../sass/application.sass */
+  /* line 290, ../sass/application.sass */
   h1 {
     font-size: 28px;
   }
 
-  /* line 281, ../sass/application.sass */
+  /* line 292, ../sass/application.sass */
   h2 {
     font-size: 24px;
   }
 
-  /* line 283, ../sass/application.sass */
+  /* line 294, ../sass/application.sass */
   h3 {
     font-size: 21px;
   }
 
-  /* line 285, ../sass/application.sass */
+  /* line 296, ../sass/application.sass */
   h4 {
     font-size: 18px;
   }
 
-  /* line 287, ../sass/application.sass */
+  /* line 298, ../sass/application.sass */
   h5 {
     font-size: 14px;
   }
 
-  /* line 289, ../sass/application.sass */
+  /* line 300, ../sass/application.sass */
   h6 {
     font-size: 12px;
   }
 
-  /* line 291, ../sass/application.sass */
+  /* line 302, ../sass/application.sass */
   code, pre {
     min-width: 320px;
     max-width: 480px;
