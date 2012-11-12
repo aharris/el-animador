@@ -7,25 +7,33 @@
   +transition-property(all)
   +transition-duration(1s)
 
-  // -webkit-transform: rotateY(-40deg)
-
 .scale
   +scale3d(.5, .5, 1)
 
 .zoom-out
   +translate3d(0,0, -20000px)
 
-.rotate-x
-  -webkit-backface-visibility: visible
-  -moz-backface-visibility: visible
-  -o-backface-visibility: visible
-  backface-visibility: visible
-  +animate(rotate-x, 3s, 0s)
+.rotate-y
+  +animate(rotate-y, 3s, 0s)
 
-@-webkit-keyframes rotate-x
+@-webkit-keyframes rotate-y
   0%
     -webkit-transform: rotateY(0)
     -webkit-animation-timing-function: ease-out
   100%
     -webkit-transform: rotateY(-360deg)
     -webkit-animation-timing-function: ease-in
+
+.rotate-x
+  +animate(rotate-x, 3s, 0s)
+
+@-webkit-keyframes rotate-x
+  0%
+    -webkit-transform: rotateX(0)
+    -webkit-animation-timing-function: ease-out
+  100%
+    -webkit-transform: rotateX(-360deg)
+    -webkit-animation-timing-function: ease-in
+
+
+
