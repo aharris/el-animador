@@ -1,3 +1,5 @@
+//TO DO: Romove class when animation is done
+
 $("#three-d").click(function(){
   event.preventDefault();
   var animationID = $(this).attr('id');
