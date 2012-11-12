@@ -1,11 +1,15 @@
-$(document).ready(function(){
+$("#three-d").click(function(){
+  event.preventDefault();
+  var animationID = $(this).attr('id');
+  $(".cube").toggleClass(animationID);
+})
 
-  $("#scale").click(function(){
-    $(".cube").addClass('scale transition');
-  })
-
-  $("#zoomOut").click(function(){
-    $(".cube").addClass('zoom-out transition');
-  })
-
-});
+$(".button").click(function(){
+  event.preventDefault();
+  var animationID = $(this).attr('id');
+  $(".cube").addClass(animationID);
+  var removeClass = window.setTimeout( function(){
+    $('.cube').removeClass(animationID)},
+    3300
+  );
+})
