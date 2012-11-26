@@ -695,3 +695,45 @@ img {
     -webkit-animation-timing-function: ease-in;
   }
 }
+
+/* line 38, ../sass/_animations.sass */
+.fade-out {
+  -webkit-animation: fade-out 3s 0s ease both;
+  -moz-animation: fade-out 3s 0s ease both;
+  -ms-animation: fade-out 3s 0s ease both;
+  -o-animation: fade-out 3s 0s ease both;
+  animation: fade-out 3s 0s ease both;
+}
+
+@-webkit-keyframes fade-out {
+  /* line 42, ../sass/_animations.sass */
+  0% {
+    opacity: 1;
+  }
+
+  /* line 44, ../sass/_animations.sass */
+  100% {
+    opacity: 0;
+  }
+}
+
+/* line 47, ../sass/_animations.sass */
+.fade-in {
+  -webkit-animation: fade-in 3s 0s ease both;
+  -moz-animation: fade-in 3s 0s ease both;
+  -ms-animation: fade-in 3s 0s ease both;
+  -o-animation: fade-in 3s 0s ease both;
+  animation: fade-in 3s 0s ease both;
+}
+
+@-webkit-keyframes fade-in {
+  /* line 51, ../sass/_animations.sass */
+  0% {
+    opacity: 0;
+  }
+
+  /* line 53, ../sass/_animations.sass */
+  100% {
+    opacity: 1;
+  }
+}

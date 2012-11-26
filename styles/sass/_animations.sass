@@ -35,5 +35,22 @@
     -webkit-transform: rotateX(-360deg)
     -webkit-animation-timing-function: ease-in
 
+.fade-out
+  +animate(fade-out, 3s, 0s)
+
+@-webkit-keyframes fade-out
+  0%
+    opacity: 1
+  100%
+    opacity: 0
+
+.fade-in
+  +animate(fade-in, 3s, 0s)
+
+@-webkit-keyframes fade-in
+  0%
+    opacity: 0
+  100%
+    opacity: 1
 
 
