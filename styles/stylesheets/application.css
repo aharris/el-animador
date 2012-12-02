@@ -1,5 +1,5 @@
 @import url(pygment_trac.css);
-/* line 17, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, /Users/Ashton/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,50 +21,50 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, /Users/Ashton/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, /Users/Ashton/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, /Users/Ashton/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, /Users/Ashton/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, /Users/Ashton/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, /Users/Ashton/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, /Users/Ashton/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, /Users/Ashton/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 1, ../sass/_default.sass */
+/* line 1, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -77,7 +77,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 10, ../sass/_default.sass */
+/* line 10, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
@@ -86,50 +86,50 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -1px;
 }
 
-/* line 17, ../sass/_default.sass */
+/* line 17, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 h1 {
   font-size: 36px;
   font-weight: 700;
 }
 
-/* line 21, ../sass/_default.sass */
+/* line 21, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 h2 {
   padding-bottom: 10px;
   font-size: 32px;
   background: url("../../images/bg_hr.png") repeat-x bottom;
 }
 
-/* line 26, ../sass/_default.sass */
+/* line 26, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 h3 {
   font-size: 24px;
 }
 
-/* line 29, ../sass/_default.sass */
+/* line 29, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 h4 {
   font-size: 21px;
 }
 
-/* line 32, ../sass/_default.sass */
+/* line 32, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 h5 {
   font-size: 18px;
 }
 
-/* line 35, ../sass/_default.sass */
+/* line 35, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 h6 {
   font-size: 16px;
 }
 
-/* line 38, ../sass/_default.sass */
+/* line 38, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 p {
   margin: 10px 0 15px 0;
 }
 
-/* line 41, ../sass/_default.sass */
+/* line 41, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 footer p {
   color: #f2f2f2;
 }
 
-/* line 44, ../sass/_default.sass */
+/* line 44, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 a {
   text-decoration: none;
   color: #007edf;
@@ -144,29 +144,29 @@ a {
   transition: text-shadow 0.5s ease;
 }
 
-/* line 51, ../sass/_default.sass */
+/* line 51, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 #main_content a:hover {
   color: #0069ba;
   text-shadow: #0090ff 0px 0px 2px;
 }
 
-/* line 55, ../sass/_default.sass */
+/* line 55, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 footer a:hover {
   color: #43adff;
   text-shadow: #0090ff 0px 0px 2px;
 }
 
-/* line 59, ../sass/_default.sass */
+/* line 59, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 em {
   font-style: italic;
 }
 
-/* line 62, ../sass/_default.sass */
+/* line 62, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 strong {
   font-weight: bold;
 }
 
-/* line 65, ../sass/_default.sass */
+/* line 65, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 img {
   position: relative;
   margin: 0 auto;
@@ -179,7 +179,7 @@ img {
   box-shadow: 0 0 5px #ebebeb;
 }
 
-/* line 74, ../sass/_default.sass */
+/* line 74, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 pre, code {
   width: 100%;
   color: #222222;
@@ -191,7 +191,7 @@ pre, code {
   -webkit-border-radius: 2px;
 }
 
-/* line 84, ../sass/_default.sass */
+/* line 84, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 pre {
   width: 100%;
   padding: 10px;
@@ -199,20 +199,20 @@ pre {
   overflow: auto;
 }
 
-/* line 90, ../sass/_default.sass */
+/* line 90, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 code {
   padding: 3px;
   margin: 0 3px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* line 95, ../sass/_default.sass */
+/* line 95, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 pre code {
   display: block;
   box-shadow: none;
 }
 
-/* line 99, ../sass/_default.sass */
+/* line 99, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 blockquote {
   color: #666666;
   margin-bottom: 20px;
@@ -220,35 +220,35 @@ blockquote {
   border-left: 3px solid #bbbbbb;
 }
 
-/* line 105, ../sass/_default.sass */
+/* line 105, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 ul, ol, dl {
   margin-bottom: 15px;
   padding-left: 20px;
 }
 
-/* line 109, ../sass/_default.sass */
+/* line 109, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 ul li {
   list-style: inside;
   padding-left: 20px;
 }
 
-/* line 113, ../sass/_default.sass */
+/* line 113, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 ol li {
   list-style: decimal inside;
   padding-left: 20px;
 }
 
-/* line 118, ../sass/_default.sass */
+/* line 118, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 dl dt {
   font-weight: bold;
 }
-/* line 120, ../sass/_default.sass */
+/* line 120, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 dl dd, dl p {
   padding-left: 20px;
   font-style: italic;
 }
 
-/* line 124, ../sass/_default.sass */
+/* line 124, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 hr {
   height: 1px;
   margin-bottom: 5px;
@@ -256,14 +256,14 @@ hr {
   background: url("../../images/bg_hr.png") repeat-x center;
 }
 
-/* line 130, ../sass/_default.sass */
+/* line 130, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 table {
   border: 1px solid #373737;
   margin-bottom: 20px;
   text-align: left;
 }
 
-/* line 135, ../sass/_default.sass */
+/* line 135, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 th {
   font-family: "Lucida Grande", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 10px;
@@ -271,25 +271,25 @@ th {
   color: white;
 }
 
-/* line 141, ../sass/_default.sass */
+/* line 141, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 td {
   padding: 10px;
   border: 1px solid #373737;
 }
 
-/* line 145, ../sass/_default.sass */
+/* line 145, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 form {
   background: #f2f2f2;
   padding: 20px;
 }
 
-/* line 149, ../sass/_default.sass */
+/* line 149, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 img {
   width: 100%;
   max-width: 100%;
 }
 
-/* line 158, ../sass/_default.sass */
+/* line 158, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 #main_content .button, #main_content .large-button {
   font-size: 16px;
   padding: 0.5em 1.5em;
@@ -315,11 +315,11 @@ img {
   text-shadow: #043645 0 -1px 0;
   margin: 10px 5px;
 }
-/* line 15, ../../../../../../Library/Ruby/Gems/1.8/gems/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+/* line 15, /Users/Ashton/.rvm/gems/ruby-1.9.3-p194/gems/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
 #main_content .button:hover, #main_content .large-button:hover {
   text-decoration: none;
 }
-/* line 36, ../../../../../../Library/Ruby/Gems/1.8/gems/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+/* line 36, /Users/Ashton/.rvm/gems/ruby-1.9.3-p194/gems/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
 #main_content .button:hover, #main_content .large-button:hover {
   background-color: #07607a;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0a86aa), color-stop(100%, #07607a));
@@ -328,13 +328,13 @@ img {
   background: -o-linear-gradient(#0a86aa, #07607a);
   background: linear-gradient(#0a86aa, #07607a);
 }
-/* line 39, ../../../../../../Library/Ruby/Gems/1.8/gems/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+/* line 39, /Users/Ashton/.rvm/gems/ruby-1.9.3-p194/gems/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
 #main_content .button:active, #main_content .large-button:active {
   -webkit-box-shadow: #06546b 0 1px 2px inset;
   -moz-box-shadow: #06546b 0 1px 2px inset;
   box-shadow: #06546b 0 1px 2px inset;
 }
-/* line 6, ../../../../../../Library/Ruby/Gems/1.8/gems/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
+/* line 6, /Users/Ashton/.rvm/gems/ruby-1.9.3-p194/gems/sassy-buttons-0.1.4/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
 #main_content .button.disabled, #main_content .button[disabled], #main_content .large-button.disabled, #main_content .large-button[disabled] {
   opacity: 0.6;
   background: #087392;
@@ -343,22 +343,22 @@ img {
   -moz-box-shadow: none;
   box-shadow: none;
 }
-/* line 73, ../../../../../../Library/Ruby/Gems/1.8/gems/sassy-buttons-0.1.4/stylesheets/_sassy-buttons.sass */
+/* line 73, /Users/Ashton/.rvm/gems/ruby-1.9.3-p194/gems/sassy-buttons-0.1.4/stylesheets/_sassy-buttons.sass */
 #main_content .button::-moz-focus-inner, #main_content .large-button::-moz-focus-inner {
   padding: 0 !important;
   margin: -1px !important;
 }
-/* line 161, ../sass/_default.sass */
+/* line 161, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 #main_content .button:hover, #main_content .large-button:hover {
   color: white;
 }
 
-/* line 168, ../sass/_default.sass */
+/* line 168, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 .outer {
   width: 100%;
 }
 
-/* line 171, ../sass/_default.sass */
+/* line 171, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 .inner {
   position: relative;
   max-width: 1200px;
@@ -366,7 +366,7 @@ img {
   margin: 0 auto;
 }
 
-/* line 177, ../sass/_default.sass */
+/* line 177, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 #forkme_banner {
   display: block;
   position: absolute;
@@ -382,7 +382,7 @@ img {
   border-bottom-right-radius: 2px;
 }
 
-/* line 191, ../sass/_default.sass */
+/* line 191, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 #header_wrap {
   background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #e2722c), color-stop(50%, #e0a33b), color-stop(100%, #e2722c));
   background-image: -webkit-linear-gradient(left, #e2722c 0%, #e0a33b 50%, #e2722c 100%);
@@ -390,12 +390,12 @@ img {
   background-image: -o-linear-gradient(left, #e2722c 0%, #e0a33b 50%, #e2722c 100%);
   background-image: linear-gradient(left, #e2722c 0%, #e0a33b 50%, #e2722c 100%);
 }
-/* line 193, ../sass/_default.sass */
+/* line 193, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
 }
 
-/* line 196, ../sass/_default.sass */
+/* line 196, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 #project_title {
   margin: 0;
   color: white;
@@ -404,7 +404,7 @@ img {
   text-shadow: #111111 0px 0px 10px;
 }
 
-/* line 203, ../sass/_default.sass */
+/* line 203, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 #project_tagline {
   color: white;
   font-size: 24px;
@@ -413,7 +413,7 @@ img {
   text-shadow: #111111 0px 0px 10px;
 }
 
-/* line 210, ../sass/_default.sass */
+/* line 210, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 #downloads {
   position: absolute;
   width: 210px;
@@ -424,7 +424,7 @@ img {
   background: url("../../images/icon_download.png") no-repeat 0% 90%;
 }
 
-/* line 219, ../sass/_default.sass */
+/* line 219, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 .zip_download_link {
   display: block;
   float: right;
@@ -435,7 +435,7 @@ img {
   background: url(../../images/sprite_download.png) no-repeat bottom left;
 }
 
-/* line 228, ../sass/_default.sass */
+/* line 228, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 .tar_download_link {
   display: block;
   float: right;
@@ -447,98 +447,98 @@ img {
   margin-left: 10px;
 }
 
-/* line 238, ../sass/_default.sass */
+/* line 238, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 .zip_download_link:hover {
   background: url(../../images/sprite_download.png) no-repeat top left;
 }
 
-/* line 241, ../sass/_default.sass */
+/* line 241, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 .tar_download_link:hover {
   background: url(../../images/sprite_download.png) no-repeat top right;
 }
 
-/* line 244, ../sass/_default.sass */
+/* line 244, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 #main_content_wrap {
   background: #f2f2f2;
   border-top: 1px solid #111111;
   border-bottom: 1px solid #111111;
 }
 
-/* line 249, ../sass/_default.sass */
+/* line 249, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 #main_content {
   padding-top: 40px;
 }
 
-/* line 252, ../sass/_default.sass */
+/* line 252, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
 #footer_wrap {
   background: #212121;
 }
 
 @media screen and (max-width: 480px) {
-  /* line 260, ../sass/_default.sass */
+  /* line 260, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
   body {
     font-size: 14px;
   }
 
-  /* line 262, ../sass/_default.sass */
+  /* line 262, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
   #downloads {
     display: none;
   }
 
-  /* line 264, ../sass/_default.sass */
+  /* line 264, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
   .inner {
     min-width: 320px;
     max-width: 480px;
   }
 
-  /* line 267, ../sass/_default.sass */
+  /* line 267, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
   #project_title {
     font-size: 32px;
   }
 
-  /* line 269, ../sass/_default.sass */
+  /* line 269, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
   h1 {
     font-size: 28px;
   }
 
-  /* line 271, ../sass/_default.sass */
+  /* line 271, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
   h2 {
     font-size: 24px;
   }
 
-  /* line 273, ../sass/_default.sass */
+  /* line 273, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
   h3 {
     font-size: 21px;
   }
 
-  /* line 275, ../sass/_default.sass */
+  /* line 275, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
   h4 {
     font-size: 18px;
   }
 
-  /* line 277, ../sass/_default.sass */
+  /* line 277, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
   h5 {
     font-size: 14px;
   }
 
-  /* line 279, ../sass/_default.sass */
+  /* line 279, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
   h6 {
     font-size: 12px;
   }
 
-  /* line 281, ../sass/_default.sass */
+  /* line 281, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_default.sass */
   code, pre {
     min-width: 320px;
     max-width: 480px;
     font-size: 11px;
   }
 }
-/* line 1, ../sass/_cube.sass */
+/* line 1, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_cube.sass */
 .cubes {
   text-align: center;
 }
 
-/* line 4, ../sass/_cube.sass */
+/* line 4, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_cube.sass */
 .cube1, .cube2 {
   display: -moz-inline-stack;
   display: inline-block;
@@ -549,7 +549,7 @@ img {
   text-align: center;
 }
 
-/* line 9, ../sass/_cube.sass */
+/* line 9, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_cube.sass */
 .cube {
   position: relative;
   margin: 2em 4em;
@@ -568,7 +568,7 @@ img {
   backface-visibility: visible;
 }
 
-/* line 25, ../sass/_cube.sass */
+/* line 25, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_cube.sass */
 .cube > figure {
   position: absolute;
   height: 150px;
@@ -581,33 +581,33 @@ img {
   border: 1px solid #aa5017;
   border-radius: 3px;
 }
-/* line 36, ../sass/_cube.sass */
+/* line 36, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_cube.sass */
 .cube > figure:nth-child(1) {
   -webkit-transform: translateZ(74px);
 }
-/* line 38, ../sass/_cube.sass */
+/* line 38, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_cube.sass */
 .cube > figure:nth-child(2) {
   -webkit-transform: rotateY(90deg) translateZ(74px);
   text-align: center;
 }
-/* line 41, ../sass/_cube.sass */
+/* line 41, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_cube.sass */
 .cube > figure:nth-child(3) {
   -webkit-transform: rotateY(180deg) translateZ(74px);
 }
-/* line 43, ../sass/_cube.sass */
+/* line 43, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_cube.sass */
 .cube > figure:nth-child(4) {
   -webkit-transform: rotateY(-90deg) translateZ(74px);
 }
-/* line 45, ../sass/_cube.sass */
+/* line 45, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_cube.sass */
 .cube > figure:nth-child(5) {
   -webkit-transform: rotateX(90deg) translateZ(74px);
 }
-/* line 47, ../sass/_cube.sass */
+/* line 47, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_cube.sass */
 .cube > figure:nth-child(6) {
   -webkit-transform: rotateX(-90deg) rotate(180deg) translateZ(74px);
 }
 
-/* line 1, ../sass/_sphere.sass */
+/* line 1, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 #sphere {
   width: 100px;
   height: 100px;
@@ -616,7 +616,7 @@ img {
   -moz-perspective: 800;
 }
 
-/* line 8, ../sass/_sphere.sass */
+/* line 8, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 .container {
   width: 100px;
   height: 100px;
@@ -625,7 +625,7 @@ img {
   -moz-transition: -moz-transform 200ms linear;
   -moz-transform-style: preserve-3d;
 }
-/* line 15, ../sass/_sphere.sass */
+/* line 15, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 .container > ul {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
@@ -633,7 +633,7 @@ img {
   height: 100%;
   position: absolute;
 }
-/* line 21, ../sass/_sphere.sass */
+/* line 21, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 .container li {
   width: 98px;
   height: 98px;
@@ -645,55 +645,55 @@ img {
   border-radius: 50px;
 }
 
-/* line 37, ../sass/_sphere.sass */
+/* line 37, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 #sphere.square li {
   border-radius: 0;
 }
-/* line 39, ../sass/_sphere.sass */
+/* line 39, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 #sphere.kaleidoscope li {
   opacity: 0.9;
   -webkit-animation: borderRadius 5s linear infinite alternate;
   -moz-animation: borderRadius 5s linear infinite alternate;
 }
-/* line 43, ../sass/_sphere.sass */
+/* line 43, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 #sphere.eye li {
   opacity: 0.5;
   background: white;
 }
-/* line 46, ../sass/_sphere.sass */
+/* line 46, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 #sphere.eye li:nth-child(7), #sphere.eye li:nth-child(8), #sphere.eye li:nth-child(6) {
   background: black;
   opacity: 1;
 }
-/* line 49, ../sass/_sphere.sass */
+/* line 49, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 #sphere.single ul:nth-child(n+2) {
   opacity: 0;
 }
-/* line 52, ../sass/_sphere.sass */
+/* line 52, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 #sphere.contact ul {
   opacity: 0;
 }
-/* line 54, ../sass/_sphere.sass */
+/* line 54, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 #sphere.contact ul:nth-child(1), #sphere.contact ul:nth-child(4) {
   opacity: 0.8;
 }
-/* line 56, ../sass/_sphere.sass */
+/* line 56, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 #sphere.contact .rotator {
   -webkit-animation: spinHorizontal 2s linear infinite;
   -moz-animation: spinHorizontal 2s linear infinite;
 }
-/* line 60, ../sass/_sphere.sass */
+/* line 60, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 #sphere.contact ul:nth-child(1) {
   -webkit-animation: spinVerticalReverse 5s linear infinite;
   -moz-animation: spinVerticalReverse 5s linear infinite;
 }
-/* line 63, ../sass/_sphere.sass */
+/* line 63, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 #sphere.contact ul:nth-child(4) {
   -webkit-animation: spinVertical 5s linear infinite;
   -moz-animation: spinVertical 5s linear infinite;
 }
 
-/* line 75, ../sass/_sphere.sass */
+/* line 75, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 .contact .rotator {
   -webkit-transition: -webkit-transform 500ms linear;
   -webkit-transform-style: preserve-3d;
@@ -701,145 +701,145 @@ img {
   -moz-transform-style: preserve-3d;
 }
 
-/* line 84, ../sass/_sphere.sass */
+/* line 84, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 #sphere.half li {
   background: black;
 }
-/* line 86, ../sass/_sphere.sass */
+/* line 86, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 #sphere.half li:nth-child(n+12) {
   display: none;
 }
-/* line 88, ../sass/_sphere.sass */
+/* line 88, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 #sphere.half ul:nth-child(n+4) li:nth-child(1) {
   display: none;
 }
 
 @-webkit-keyframes spinHorizontal {
-  /* line 95, ../sass/_sphere.sass */
+  /* line 95, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
   from {
     -webkit-transform: rotateY(0deg);
   }
 
-  /* line 97, ../sass/_sphere.sass */
+  /* line 97, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
   to {
     -webkit-transform: rotateY(360deg);
   }
 }
 
 @-webkit-keyframes spinVertical {
-  /* line 102, ../sass/_sphere.sass */
+  /* line 102, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
   from {
     -webkit-transform: rotateX(0deg);
   }
 
-  /* line 104, ../sass/_sphere.sass */
+  /* line 104, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
   to {
     -webkit-transform: rotateX(360deg);
   }
 }
 
 @-webkit-keyframes spinVerticalReverse {
-  /* line 109, ../sass/_sphere.sass */
+  /* line 109, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
   from {
     -webkit-transform: rotateX(360deg);
   }
 
-  /* line 111, ../sass/_sphere.sass */
+  /* line 111, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
   to {
     -webkit-transform: rotateX(0deg);
   }
 }
 
 @-webkit-keyframes borderRadius {
-  /* line 116, ../sass/_sphere.sass */
+  /* line 116, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
   from {
     border-radius: 5px;
   }
 
-  /* line 118, ../sass/_sphere.sass */
+  /* line 118, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
   to {
     border-radius: 50px;
   }
 }
 
 @-moz-keyframes spinHorizontal {
-  /* line 123, ../sass/_sphere.sass */
+  /* line 123, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
   from {
     -moz-transform: rotateY(0deg);
   }
 
-  /* line 125, ../sass/_sphere.sass */
+  /* line 125, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
   to {
     -moz-transform: rotateY(360deg);
   }
 }
 
 @-moz-keyframes spinVertical {
-  /* line 130, ../sass/_sphere.sass */
+  /* line 130, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
   from {
     -moz-transform: rotateX(0deg);
   }
 
-  /* line 132, ../sass/_sphere.sass */
+  /* line 132, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
   to {
     -moz-transform: rotateX(360deg);
   }
 }
 
 @-moz-keyframes spinVerticalReverse {
-  /* line 137, ../sass/_sphere.sass */
+  /* line 137, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
   from {
     -moz-transform: rotateX(360deg);
   }
 
-  /* line 139, ../sass/_sphere.sass */
+  /* line 139, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
   to {
     -moz-transform: rotateX(0deg);
   }
 }
 
 @-moz-keyframes borderRadius {
-  /* line 144, ../sass/_sphere.sass */
+  /* line 144, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
   from {
     border-radius: 5px;
   }
 
-  /* line 146, ../sass/_sphere.sass */
+  /* line 146, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
   to {
     border-radius: 50px;
   }
 }
 
-/* line 150, ../sass/_sphere.sass */
+/* line 150, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 .test p {
   text-align: center;
 }
 
-/* line 153, ../sass/_sphere.sass */
+/* line 153, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 #controls {
   position: absolute;
   left: 20px;
   top: 115px;
 }
-/* line 157, ../sass/_sphere.sass */
+/* line 157, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 #controls fieldset {
   border: 1px dotted black;
   padding: 0.5em 1em 0 0.5em;
 }
-/* line 160, ../sass/_sphere.sass */
+/* line 160, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 #controls label {
   font-weight: normal;
 }
-/* line 162, ../sass/_sphere.sass */
+/* line 162, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 #controls div {
   margin: 0 0 0.5em;
 }
-/* line 164, ../sass/_sphere.sass */
+/* line 164, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_sphere.sass */
 #controls input {
   vertical-align: baseline;
 }
 
-/* line 1, ../sass/_animations.sass */
+/* line 1, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_animations.sass */
 .cubes {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
@@ -850,7 +850,7 @@ img {
   -webkit-perspective: 20000px;
 }
 
-/* line 6, ../sass/_animations.sass */
+/* line 6, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_animations.sass */
 .transition {
   -webkit-transition-property: all;
   -moz-transition-property: all;
@@ -862,7 +862,7 @@ img {
   transition-duration: 1s;
 }
 
-/* line 10, ../sass/_animations.sass */
+/* line 10, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_animations.sass */
 .scale {
   -webkit-transform: scale3d(0.5, 0.5, 1);
   -moz-transform: scale3d(0.5, 0.5, 1);
@@ -871,7 +871,7 @@ img {
   transform: scale3d(0.5, 0.5, 1);
 }
 
-/* line 13, ../sass/_animations.sass */
+/* line 13, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_animations.sass */
 .zoom-out {
   -webkit-transform: translate3d(0, 0, -20000px);
   -moz-transform: translate3d(0, 0, -20000px);
@@ -880,7 +880,7 @@ img {
   transform: translate3d(0, 0, -20000px);
 }
 
-/* line 16, ../sass/_animations.sass */
+/* line 16, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_animations.sass */
 .rotate-y {
   -webkit-animation: rotate-y 3s 0s ease both;
   -moz-animation: rotate-y 3s 0s ease both;
@@ -890,20 +890,20 @@ img {
 }
 
 @-webkit-keyframes rotate-y {
-  /* line 20, ../sass/_animations.sass */
+  /* line 20, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_animations.sass */
   0% {
     -webkit-transform: rotateY(0);
     -webkit-animation-timing-function: ease-out;
   }
 
-  /* line 23, ../sass/_animations.sass */
+  /* line 23, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_animations.sass */
   100% {
     -webkit-transform: rotateY(-360deg);
     -webkit-animation-timing-function: ease-in;
   }
 }
 
-/* line 27, ../sass/_animations.sass */
+/* line 27, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_animations.sass */
 .rotate-x {
   -webkit-animation: rotate-x 3s 0s ease both;
   -moz-animation: rotate-x 3s 0s ease both;
@@ -913,20 +913,20 @@ img {
 }
 
 @-webkit-keyframes rotate-x {
-  /* line 31, ../sass/_animations.sass */
+  /* line 31, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_animations.sass */
   0% {
     -webkit-transform: rotateX(0);
     -webkit-animation-timing-function: ease-out;
   }
 
-  /* line 34, ../sass/_animations.sass */
+  /* line 34, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_animations.sass */
   100% {
     -webkit-transform: rotateX(-360deg);
     -webkit-animation-timing-function: ease-in;
   }
 }
 
-/* line 38, ../sass/_animations.sass */
+/* line 38, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_animations.sass */
 .fade-out {
   -webkit-animation: fade-out 3s 0s ease both;
   -moz-animation: fade-out 3s 0s ease both;
@@ -936,18 +936,18 @@ img {
 }
 
 @-webkit-keyframes fade-out {
-  /* line 42, ../sass/_animations.sass */
+  /* line 42, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_animations.sass */
   0% {
     opacity: 1;
   }
 
-  /* line 44, ../sass/_animations.sass */
+  /* line 44, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_animations.sass */
   100% {
     opacity: 0;
   }
 }
 
-/* line 47, ../sass/_animations.sass */
+/* line 47, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_animations.sass */
 .fade-in {
   -webkit-animation: fade-in 3s 0s ease both;
   -moz-animation: fade-in 3s 0s ease both;
@@ -957,12 +957,12 @@ img {
 }
 
 @-webkit-keyframes fade-in {
-  /* line 51, ../sass/_animations.sass */
+  /* line 51, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_animations.sass */
   0% {
     opacity: 0;
   }
 
-  /* line 53, ../sass/_animations.sass */
+  /* line 53, /Users/Ashton/Empathy Lab/el-animador/styles/sass/_animations.sass */
   100% {
     opacity: 1;
   }
