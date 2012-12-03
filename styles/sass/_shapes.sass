@@ -1,0 +1,153 @@
+.shapes
+  text-align: center
+
+.shape
+  +inline-block
+  margin: 2em 4em
+  +box-sizing(border-box)
+  +transform-style(preserve-3d)
+  figure
+    font-size: 5em
+    color: white
+
+//--------------------------------------------
+// CUBE ------------------------------------
+//--------------------------------------------
+
+.cube
+  text-align: center
+  position: relative
+  height: 150px
+  width: 150px
+  -webkit-transition: -webkit-transform 50ms linear
+  +transform-style(preserve-3d)
+  +backface-visibility(visible)
+  // -webkit-transform: rotateX(-10deg) rotateY(20deg)
+
+.cube > figure
+  position: absolute
+  height: 150px
+  width: 150px
+  box-sizing: border-box
+  padding: 20px
+  background-color: rgba(226, 114, 44, 0.7)
+  border: 1px solid darken(#e2722c, 15%)
+  border-radius: 3px
+  &:nth-child(1)
+    +transform(translateZ(74px))
+  &:nth-child(2)
+    +transform(rotateY(90deg) translateZ(74px))
+    text-align: center
+  &:nth-child(3)
+    +transform(rotateY(180deg) translateZ(74px))
+  &:nth-child(4)
+    +transform(rotateY(-90deg) translateZ(74px))
+  &:nth-child(5)
+    +transform(rotateX(90deg) translateZ(74px))
+  &:nth-child(6)
+    +transform(rotateX(-90deg) rotate(180deg) translateZ(74px))
+
+
+//--------------------------------------------
+// SPHERE ------------------------------------
+//--------------------------------------------
+
+.sphere
+  width: 150px
+  height: 100px
+  -webkit-perspective: 800
+  -moz-perspective: 800
+
+.container
+  width: 100px
+  height: 100px
+  +transition(transform 200ms linear)
+  +transform-style(preserve-3d)
+  > ul
+    +transform-style(preserve-3d)
+    width: 100%
+    height: 100%
+    position: absolute
+  li
+    width: 98px
+    height: 98px
+    position: absolute
+    display: block
+    background: rgba(226, 114, 44, 0.7)
+    border: 1px solid darken(#e2722c, 5%)
+    +opacity(0.3)
+    border-radius: 50px
+
+
+//--------------------------------------------
+// PYRAMID ------------------------------------
+//--------------------------------------------
+
+.pyramid-wrap
+  padding: 90px 0 0
+
+.pyramid
+  width: 200px
+  height: 200px
+  margin: 0 auto
+  +transition(transform 1s ease-out)
+  +transform-style(preserve-3d)
+  +transform(rotateX(88deg) rotate(45deg))
+
+.triangle, .base
+  +transform-style(preserve-3d)
+  +transform-origin(left top)
+  +transition(transform 200ms ease-out)
+
+.triangle
+  width: 0
+  height: 0
+  background: none
+  &:before
+    content: ""
+    position: absolute
+    height: 0
+    width: 0
+    border-style: solid
+    border-width: 176px 100px 0 100px
+
+/* note that border dimension includes border set in '.side' CSS Class
+
+.base
+  position: absolute
+  width: 200px
+  height: 200px
+  background-color: darken(rgba(226, 114, 44, 0.7), 10%)
+  font-size: 1.4em
+  color: #999
+  cursor: pointer
+
+/* note that translation includes border set in '.side' CSS Class
+
+.side1
+  /* base
+  +transform(translatez(0))
+
+.side2
+  /* triangle
+  +transform(translatex(0) rotatey(125deg) rotatez(90deg))
+
+.side3
+  /* triangle
+  +transform(translatex(200px) rotatez(90deg) rotatex(55deg))
+
+.side4
+  /* triangle
+  -webkit-transform: translatez(0) rotatex(55deg)
+  +transform(translatez(0) rotatex(55deg))
+
+.side5
+  /* triangle
+  +transform(translatey(200px) rotatex(125deg))
+
+.side2:before, .side3:before
+  border-color: darken(rgba(226, 114, 44, 0.6), 5%) transparent transparent transparent
+
+.side4:before, .side5:before
+  border-color: rgba(226, 114, 44, 0.5) transparent transparent transparent
+
