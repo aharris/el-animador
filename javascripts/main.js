@@ -1,17 +1,11 @@
 //TO DO: Romove class when animation is done
 
-// $("#three-d").click(function(){
-//   event.preventDefault();
-//   var animationID = $(this).attr('id');
-//   $(".cube").toggleClass(animationID);
-// })
-
 $(".button").click(function(){
   event.preventDefault();
   var animationID = $(this).attr('id');
-  $(".cube").addClass(animationID);
+  $(".shapes").children().addClass(animationID);
   var removeClass = window.setTimeout( function(){
-    $('.cube').removeClass(animationID)},
+    $('.shapes').children().removeClass(animationID)},
     3300
   );
 })
@@ -34,7 +28,7 @@ $(function(){
     sphere = {
       rounds: 8,
       panels: 24,
-      panelWidth: 50,
+      panelWidth: 35,
       el: $sphere.find('.container'),
       build: function(p, r) {
 
